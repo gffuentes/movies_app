@@ -1,0 +1,22 @@
+<head>
+	<title>RetFlix</title>
+</head>
+<h1><a href="/">Welcome to RetFlix!</a></h1>
+<h2>Search through our collection of movies:</h2>
+
+<%= form_tag("/",method: "get") do %>
+	<%= label_tag(:q, "Movies Search:") %>
+	<%= text_field_tag(:q) %>
+	<%= submit_tag("Search") %>
+<% end %>
+
+<ol>
+	<% @movies.each do |movie| %>
+		<li>
+			Name: <%= movie.title %> (<%= movie.year_released %>)
+			<br />
+			Description: <%= movie.description %>
+		</li>
+		<br />
+		<% end %>
+</ol>
