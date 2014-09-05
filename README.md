@@ -1,6 +1,6 @@
 #GA movies_app homework for chapter 11
 
-##Here is a picture of the new Mazda Miata, in case you missed it.
+##Additionally, here is a picture of the new Mazda Miata, in case you missed it.
 
 Hope you enjoy!
 ![new miata](http://i.kinja-img.com/gawker-media/image/upload/s--S5Nd-miZ--/c_fit,fl_progressive,q_80,w_636/kt0pz5mxqyvncsdibqhz.jpg)
